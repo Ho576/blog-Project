@@ -2,7 +2,7 @@ import { DataTypes } from "sequelize";
 import { sequelize } from "../connection.js";
 import blogModel from "./blog.model.js";
 
-const userModel = sequelize.define('User',{
+const userModel = sequelize.define('user',{
     name:{
         type:DataTypes.STRING,
         allowNull:false,
