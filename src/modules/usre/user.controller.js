@@ -11,7 +11,6 @@ export const getUsers = async(req,res)=>{
         return res.json({message:"error",error}); 
     }
     
-    
 }
 
 export const deleteUser = async(req,res)=>{
