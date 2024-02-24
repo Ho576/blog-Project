@@ -1,7 +1,7 @@
 import { DataTypes } from "sequelize";
 import { sequelize } from "../connection.js";
 
-const blogModel = sequelize.define('Blog',{
+const blogModel = sequelize.define('blog',{
     title :{
         type:DataTypes.STRING(100),
         allowNull:false,
